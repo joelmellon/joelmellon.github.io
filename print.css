@@ -1,0 +1,9 @@
+.noPrint {
+	display: none;
+}
+
+body.base .content {
+	background-color: white;
+	margin-top: 0;
+	padding-top: 0;
+}

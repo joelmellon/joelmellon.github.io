@@ -1,0 +1,48 @@
+html, body.base, body.base div, body.base span, body.base applet, body.base object, body.base iframe,
+body.base h1, body.base h2, body.base h3, body.base h4, body.base h5, body.base h6, body.base p, body.base blockquote, body.base pre,
+body.base a, body.base abbr, body.base acronym, body.base address, body.base big, body.base cite, body.base code,
+body.base del, body.base dfn, body.base em, body.base img, body.base ins, body.base kbd, body.base q, body.base s, body.base samp,
+body.base small, body.base strike, body.base strong, body.base sub, body.base sup, body.base tt, body.base var,
+body.base b, body.base u, body.base i, body.base center,
+body.base dl, body.base dt, body.base dd, body.base ol, body.base ul, body.base li,
+body.base fieldset, body.base form, body.base label, body.base legend,
+body.base table, body.base caption, body.base tbody, body.base tfoot, body.base thead, body.base tr, body.base th, body.base td,
+body.base article, body.base aside, body.base canvas, body.base details, body.base figcaption, body.base figure, 
+body.base footer, body.base header, body.base hgroup, body.base menu, body.base nav, body.base section, body.base summary,
+body.base time, body.base mark, body.base audio, body.base video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body.base article, body.base aside, body.base details, body.base figcaption, body.base figure, 
+body.base footer, body.base header, body.base hgroup, body.base menu, body.base nav, body.base section {
+	display: block;
+}
+body.base  {
+	line-height: 1;
+}
+body.base ol, body.base ul {
+	list-style: none;
+}
+body.base blockquote, body.base q {
+	quotes: none;
+}
+body.base blockquote:before, blockquote:after,
+body.base q:before, q:after {
+	content: '';
+	content: none;
+}
+body.base ins {
+	text-decoration: none;
+}
+body.base del {
+	text-decoration: line-through;
+}
+body.base table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

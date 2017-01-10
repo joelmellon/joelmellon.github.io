@@ -1,0 +1,145 @@
+body.base .content {
+	background-color: #f7f7f7;
+	color: #333;
+	font-family: Buenard, Georgia, serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	margin: 30px auto;
+	padding: 30px 25px;
+	width: 800px;
+}
+body.base .featured {
+	float: left;
+	width: 27%;
+}
+body.base .primary {
+	float: left;
+	width: 73%;
+}
+body.base h1 {
+	float: left;
+	font-size: 18pt;
+	font-family: Trocchi, Georgia, serif;
+}
+body.base h2 {
+	clear: both;
+	font-family: 'Cantata One', 'Times New Roman', Times, serif;
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: normal;
+	padding: 20px 0 10px;
+	text-align: center;
+}
+body.base h3, body.base h4, body.base h5, body.base h6 {
+	font-family: Buenard, Georgia, serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+body.base h3 {
+	font-size: 14pt;
+	margin: 10px 0;
+}
+body.base h4 {
+	font-style: italic;
+	font-weight: normal;
+	padding-top: 10px;
+}
+body.base h5, body.base h6 {
+	display: inline-block;
+	padding: 5px 0 10px;
+}
+body.base .primary h5 {
+	/*padding-left: 20px;*/
+}
+body.base .primary h6 {
+	font-weight: normal;
+}
+body.base .tooltip {
+	cursor: help;
+}
+body.base address {
+	float: right;
+	font-style: normal;
+}
+body.base address > * {
+	display: block;
+	float: right;
+}
+body.base address a {
+	text-decoration: none;
+	color: inherit;
+}
+body.base address a:hover {
+	text-decoration: underline;
+}
+body.base address .street:after {
+	content: " \2014 ";/*&mdash; (long dash)*/
+}
+body.base address .city:after {
+	content: ",";
+}
+body.base address .contact {
+	clear: both;
+}
+body.base address .phone:after {
+	content: " \2014 ";/*&mdash; (long dash)*/
+}
+
+body.base .featured > ul > li {
+	padding-bottom: 10px;
+}
+body.base .featured > ul li ul {
+	padding-left: 1.3em;
+}
+body.base .featured li ul li, body.base .featured li.skillset {
+	list-style-type: disc;
+}
+
+body.base p, body.base .primary ul {
+	padding: 10px 0 10px 15px;
+}
+body.base p {
+	padding-left: 0;
+}
+body.base .primary ul {
+	padding-left: 1.3em;
+	padding-top: 3px;
+}
+body.base .primary li {
+	list-style-type: disc;
+	margin-bottom: 5px;
+}
+body.base .primary .note {
+	padding: 0 0 20px 20px;
+}
+body.base .primary .role {}
+body.base .primary .superfluous.role {
+	display:none;
+}
+
+body.base footer {
+	clear: both;
+}
+body.base footer ul, body.base footer li {
+	display: inline;
+}
+body.base .preLabel:after {
+	content: ": ";
+}
+
+body a#noStyle {
+	color: inherit;
+	cursor: text;
+	text-decoration: none;
+}
+
+body.base a#noStyle {
+	cursor: auto;
+	text-decoration: underline;
+}
+
+body.base a#simpleStyle {
+	color: inherit;
+	cursor: text;
+	text-decoration: none;
+}
