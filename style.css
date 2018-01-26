@@ -114,7 +114,7 @@ body.base .primary .note {
 }
 body.base .primary .role {}
 body.base .primary .superfluous.role {
-	display:none;
+	/*display:none;*/
 }
 
 body.base footer {
@@ -142,4 +142,8 @@ body.base a#simpleStyle {
 	color: inherit;
 	cursor: text;
 	text-decoration: none;
+}
+
+@media print {
+    .page-break {page-break-after: always;}
 }
