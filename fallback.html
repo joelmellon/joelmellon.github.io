@@ -5,16 +5,21 @@
 	</head>
 	<body>
 		<script>
-			// TODO get query params
-			const urlParams = new URLSearchParams(window.location.search);
-			const query = urlParams.get('q');
-			console.log(query); // TODO rm debug
-			
-			// TODO else redirect to https://google.com
-			const feelingLucky = urlParams.get('lucky');
-			// TODO look for I'm Feeling Lucky Flag (lucky)
-			// TODO trim(q)
-			// TODO what else do I want this to do?
+			(function() {
+				// TODO get query params
+				const urlParams = new URLSearchParams(window.location.search);
+				const query = urlParams.get('q');
+
+				if (query === null) {
+					window.location.href = 'https://google.com';
+					return;
+				}
+
+				const feelingLucky = urlParams.get('lucky');
+				// TODO look for I'm Feeling Lucky Flag (lucky)
+				// TODO trim(q)
+				// TODO what else do I want this to do?
+			})();
 		</script>
 	</body>
 </html>
