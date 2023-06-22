@@ -85,7 +85,7 @@ body.base address .contact {
 	clear: both;
 }
 body.base address .phone:after {
-	content: " \2014 ";/*&mdash; (long dash)*/
+/*	content: " \2014 ";/*&mdash; (long dash)*/*/
 }
 
 body.base .featured > ul > li {
